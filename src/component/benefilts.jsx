@@ -1,36 +1,47 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Blockchainimg from "../assets/img3/benefits.svg";
 import "../assets/css/blockchain.css";
 
+// ✅ Import AOS
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const BenefiltsSection = () => {
   const [activeFeature, setActiveFeature] = useState("Explore the top blockchains");
+
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true }); // smooth scroll animation
+  }, []);
 
   return (
     <div className="container py-5 mt-5">
       <div className="row align-items-center">
 
         {/* ✅ Left Content */}
-        <div className="col-lg-6 col-md-12 mb-0 p-5 py-0 pb-0 p-lg-0 p-md-0">
+        <div
+          className="col-lg-6 col-md-12 mb-0 p-5 py-0 pb-0 p-lg-0 p-md-0"
+          data-aos="fade-right"
+        >
           <h2
             className="mb-4 fw-bold text-start"
             style={{
               fontFamily: "Poppins, sans-serif",
-              fontSize: "clamp(24px, 4vw, 42px)", // responsive heading
+              fontSize: "clamp(24px, 4vw, 42px)",
               lineHeight: "120%",
             }}
           >
             The benefits of the Internet of Things
           </h2>
 
-          <div className="mb-4">
+          <div className="mb-4" data-aos="fade-up" data-aos-delay="200">
             <h5 className="fw-semibold">Operational efficiency</h5>
             <p
               className="text-muted text-start"
               style={{
                 fontFamily: "Poppins, sans-serif",
                 fontWeight: 300,
-                fontSize: "clamp(14px, 2.5vw, 18px)", // responsive text
+                fontSize: "clamp(14px, 2.5vw, 18px)",
                 lineHeight: "150%",
               }}
             >
@@ -40,7 +51,7 @@ const BenefiltsSection = () => {
             </p>
           </div>
 
-          <div className="mb-4 ">
+          <div className="mb-4" data-aos="fade-up" data-aos-delay="400">
             <h5 className="fw-semibold">Enhanced customer experiences</h5>
             <p
               className="text-muted text-start"
@@ -57,7 +68,7 @@ const BenefiltsSection = () => {
             </p>
           </div>
 
-          <div className="mb-0">
+          <div className="mb-0" data-aos="fade-up" data-aos-delay="600">
             <h5 className="fw-semibold">Cost savings</h5>
             <p
               className="text-muted text-start"
@@ -78,8 +89,10 @@ const BenefiltsSection = () => {
           {/* Button */}
           <button
             className="quote-btn btn-dark px-4 py-2 rounded-pill shadow-sm"
+            data-aos="zoom-in"
+            data-aos-delay="800"
             style={{
-              fontSize: "clamp(13px, 2vw, 16px)", // responsive button text
+              fontSize: "clamp(13px, 2vw, 16px)",
             }}
           >
             Explore Now
@@ -87,7 +100,10 @@ const BenefiltsSection = () => {
         </div>
 
         {/* ✅ Right Image */}
-        <div className="col-lg-6 col-md-12 d-flex justify-content-center mt-5 mt-lg-0">
+        <div
+          className="col-lg-6 col-md-12 d-flex justify-content-center mt-5 mt-lg-0"
+          data-aos="fade-left"
+        >
           <img
             src={Blockchainimg}
             alt="Laptop"
