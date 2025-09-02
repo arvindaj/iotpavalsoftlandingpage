@@ -49,12 +49,12 @@ const BenefiltsSection = () => {
                   lineHeight: "150%",
                 }}
               >
-               Boost productivity with the help of IoT. Our solutions integrate your devices into one continuous workflow, providing you with real-time information and smarter work.
+              Boost productivity with the help of IoT. Our solutions integrate your devices into one continuous workflow, providing you with real-time information and smarter work.
               </p>
             </div>
 
             <div className="mb-4" data-aos="fade-up" data-aos-delay="400">
-              <h5 className="fw-semibold">Enhanced customer experiences</h5>
+              <h5 className="fw-semibold">Improve Safety with IoT Security.</h5>
               <p
                 className="text-muted text-start"
                 style={{
@@ -80,7 +80,7 @@ const BenefiltsSection = () => {
                   lineHeight: "150%",
                 }}
               >
-               We convert raw data into useful insights. Analyzing data from connected devices helps you make smarter decisions, improve performance, and find new ways to grow your business.
+             We convert raw data into useful insights. Analyzing data from connected devices helps you make smarter decisions, improve performance, and find new ways to grow your business.
               </p>
             </div>
 

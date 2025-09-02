@@ -69,7 +69,7 @@ const [showModal, setShowModal] = useState(false);
                                     maxWidth: "420px",
                                 }}
                             >
-                               Paval Soft delivers the best IoT services to transform your business through intelligent, connected solutions. As a top IoT development company in India, we help you harness the full potential of this technology
+                              Paval Soft delivers the best IoT services to transform your business through intelligent, connected solutions. As a top IoT development company in India, we help you harness the full potential of this technology
                             </p>
 
                             <button

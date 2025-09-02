@@ -60,7 +60,7 @@ const IotServicesSection = () => {
                                 lineHeight: "150%",
                             }}
                         >
-                            Paval Soft builds new IoT products to bring your devices and systems together. We help your business become smarter by optimizing performance and efficiency. We are experts in custom IoT platform development and Industrial IoT (IIoT) solutions.
+                           Paval Soft builds new IoT products to bring your devices and systems together. We help your business become smarter by optimizing performance and efficiency. We are experts in custom IoT platform development and Industrial IoT (IIoT) solutions.
                         </p>
 
                         <p
@@ -74,7 +74,7 @@ const IotServicesSection = () => {
                                 lineHeight: "150%",
                             }}
                         >
-                           We handle everything, from setting up your devices to making sure your data is secure. We turn raw information into simple, useful insights that help you make better decisions. Let's work together to create an IoT solution that's a perfect fit for you.
+                          We handle everything, from setting up your devices to making sure your data is secure. We turn raw information into simple, useful insights that help you make better decisions. Let's work together to create an IoT solution that's a perfect fit for you.
                         </p>
                         <a
                             href="https://www.pavalsoftware.com/"
