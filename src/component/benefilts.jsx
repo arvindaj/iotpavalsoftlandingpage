@@ -1,13 +1,16 @@
 import { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Blockchainimg from "../assets/img3/benefits.svg";
-import "../assets/css/blockchain.css";
+import "../assets/css/benefilts.css";
+import Popup from "../component/popup";
 
 // ✅ Import AOS
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const BenefiltsSection = () => {
+  const [showModal, setShowModal] = useState(false);
+
   const [activeFeature, setActiveFeature] = useState("Explore the top blockchains");
 
   useEffect(() => {
@@ -15,104 +18,106 @@ const BenefiltsSection = () => {
   }, []);
 
   return (
-    <div className="container py-5 mt-5">
-      <div className="row align-items-center">
+    <>
+      <div className="container py-5 mt-5">
+        <div className="row align-items-center">
 
-        {/* ✅ Left Content */}
-        <div
-          className="col-lg-6 col-md-12 mb-0 p-5 py-0 pb-0 p-lg-0 p-md-0"
-          data-aos="fade-right"
-        >
-          <h2
-            className="mb-4 fw-bold text-start"
-            style={{
-              fontFamily: "Poppins, sans-serif",
-              fontSize: "clamp(24px, 4vw, 42px)",
-              lineHeight: "120%",
-            }}
+          {/* ✅ Left Content */}
+          <div
+            className="col-lg-6 col-md-12 mb-0 p-5 py-0 pb-0 p-lg-0 p-md-0"
+            data-aos="fade-right"
           >
-            The benefits of the Internet of Things
-          </h2>
-
-          <div className="mb-4" data-aos="fade-up" data-aos-delay="200">
-            <h5 className="fw-semibold">Operational efficiency</h5>
-            <p
-              className="text-muted text-start"
+            <h2
+              className="mb-4 fw-bold text-start"
               style={{
                 fontFamily: "Poppins, sans-serif",
-                fontWeight: 300,
-                fontSize: "clamp(14px, 2.5vw, 18px)",
-                lineHeight: "150%",
+                fontSize: "clamp(24px, 4vw, 42px)",
+                lineHeight: "120%",
               }}
             >
-              IoT solutions enable real-time monitoring and automation of
-              business and production processes, leading to increased productivity
-              and optimized resource consumption.
-            </p>
-          </div>
+              The benefits of the Internet of Things
+            </h2>
 
-          <div className="mb-4" data-aos="fade-up" data-aos-delay="400">
-            <h5 className="fw-semibold">Enhanced customer experiences</h5>
-            <p
-              className="text-muted text-start"
+            <div className="mb-4" data-aos="fade-up" data-aos-delay="200">
+              <h5 className="fw-semibold">Operational efficiency</h5>
+              <p
+                className="text-muted text-start"
+                style={{
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: 300,
+                  fontSize: "clamp(14px, 2.5vw, 18px)",
+                  lineHeight: "150%",
+                }}
+              >
+                IoT solutions enable real-time monitoring and automation of
+                business and production processes, leading to increased productivity
+                and optimized resource consumption.
+              </p>
+            </div>
+
+            <div className="mb-4" data-aos="fade-up" data-aos-delay="400">
+              <h5 className="fw-semibold">Enhanced customer experiences</h5>
+              <p
+                className="text-muted text-start"
+                style={{
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: 300,
+                  fontSize: "clamp(14px, 2.5vw, 18px)",
+                  lineHeight: "150%",
+                }}
+              >
+                With IoT devices, businesses gather valuable insights into
+                customer behavior and preferences, leveraging them for proactive
+                problem-solving, personalized services, and improved engagement.
+              </p>
+            </div>
+
+            <div className="mb-0" data-aos="fade-up" data-aos-delay="600">
+              <h5 className="fw-semibold">Cost savings</h5>
+              <p
+                className="text-muted text-start"
+                style={{
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: 300,
+                  fontSize: "clamp(14px, 2.5vw, 18px)",
+                  lineHeight: "150%",
+                }}
+              >
+                IoT-powered predictive analytics help identify potential issues
+                before they escalate into costly problems. By monitoring equipment
+                and systems in real-time, organizations minimize downtime, extend
+                asset lifespans, and reduce repair costs.
+              </p>
+            </div>
+
+            {/* Button */}
+            <button
+              className="quote-btn px-4 py-2 rounded-pill text-white"
+              onClick={() => setShowModal(true)}
               style={{
-                fontFamily: "Poppins, sans-serif",
-                fontWeight: 300,
-                fontSize: "clamp(14px, 2.5vw, 18px)",
-                lineHeight: "150%",
+                fontSize: "clamp(13px, 1vw, 16px)"
               }}
             >
-              With IoT devices, businesses gather valuable insights into
-              customer behavior and preferences, leveraging them for proactive
-              problem-solving, personalized services, and improved engagement.
-            </p>
+              Get A Quote
+            </button>
           </div>
 
-          <div className="mb-0" data-aos="fade-up" data-aos-delay="600">
-            <h5 className="fw-semibold">Cost savings</h5>
-            <p
-              className="text-muted text-start"
-              style={{
-                fontFamily: "Poppins, sans-serif",
-                fontWeight: 300,
-                fontSize: "clamp(14px, 2.5vw, 18px)",
-                lineHeight: "150%",
-              }}
-            >
-              IoT-powered predictive analytics help identify potential issues
-              before they escalate into costly problems. By monitoring equipment
-              and systems in real-time, organizations minimize downtime, extend
-              asset lifespans, and reduce repair costs.
-            </p>
-          </div>
-
-          {/* Button */}
-          <button
-            className="quote-btn btn-dark px-4 py-2 rounded-pill shadow-sm"
-            data-aos="zoom-in"
-            data-aos-delay="800"
-            style={{
-              fontSize: "clamp(13px, 2vw, 16px)",
-            }}
+          {/* ✅ Right Image */}
+          <div
+            className="col-lg-6 col-md-12 d-flex justify-content-center mt-5 mt-lg-0"
+            data-aos="fade-left"
           >
-            Explore Now
-          </button>
-        </div>
-
-        {/* ✅ Right Image */}
-        <div
-          className="col-lg-6 col-md-12 d-flex justify-content-center mt-5 mt-lg-0"
-          data-aos="fade-left"
-        >
-          <img
-            src={Blockchainimg}
-            alt="Laptop"
-            className="rounded-4 laptop-bg-animation"
-            style={{ maxHeight: "700px" }}
-          />
+            <img
+              src={Blockchainimg}
+              alt="Laptop"
+              className="rounded-4 laptop-bg-animation"
+              style={{ maxHeight: "700px" }}
+            />
+          </div>
         </div>
       </div>
-    </div>
+      {showModal && <Popup onClose={() => setShowModal(false)} />}
+    </>
   );
 };
 

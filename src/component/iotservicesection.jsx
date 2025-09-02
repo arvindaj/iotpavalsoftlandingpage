@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import laptopBg from "../assets/img3/seviceiot.svg";
+import "../assets/css/benefilts.css";
 
 // ✅ Import AOS
 import AOS from "aos";
@@ -81,15 +82,21 @@ const IotServicesSection = () => {
                             records that are tamper-resistant. Decentralized Ledger makes every node
                             a copy of a verified record – which means single points of failure.
                         </p>
-
-                        <button
-                            className="quote-btn px-4 py-2 mt-5 rounded-pill text-white"
-                            style={{
-                                fontSize: "clamp(13px, 2vw, 16px)",
-                            }}
+                        <a
+                            href="https://www.pavalsoftware.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
-                            Explore Now
-                        </button>
+                            <button
+                                className="quote-btn px-4 py-2 mt-5 rounded-pill shadow-sm"
+                                style={{
+                                    fontSize: "clamp(13px, 2vw, 16px)",
+                                }}
+                            >
+                                Explore Now
+                            </button>
+                        </a>
+
 
                     </div>
                 </div>

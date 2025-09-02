@@ -2,7 +2,7 @@ import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Blockchainimg from "../assets/img2/Group 148.svg";
 import bgBlockchain from "../assets/img2/Groupbg.svg";
-import "../assets/css/blockchain.css";
+
 
 // Import your custom icons
 import iconExplore from "../assets/img2/Group.svg";

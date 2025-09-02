@@ -1,19 +1,24 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Minebanner from "../assets/img3/herobot2.svg"; // 👉 Right side hand + hexagons
-import leftbanner from "../assets/img3/herobot1.svg"; // 👉 Left side robot
+import Minebanner from "../assets/img3/herobot2.svg";
+import leftbanner from "../assets/img3/herobot1.svg"; 
 import "../assets/css/herosection.css";
-
-// ✅ Import AOS
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import Popup from "../component/popup";
+
+
+
 
 const HeroSection = () => {
+const [showModal, setShowModal] = useState(false);
+
     useEffect(() => {
         AOS.init({ duration: 1000, once: true }); // initialize animations
     }, []);
 
     return (
+        <>
         <section
             className="container-fluid text-dark position-relative p-0"
             style={{ overflow: "hidden" }}
@@ -70,7 +75,8 @@ const HeroSection = () => {
                             </p>
 
                             <button
-                                className="quote-btn px-4 py-2 rounded-pill text-white"
+                                className="quote-btn px-4 py-2 rounded-pill text-white" 
+                                onClick={() => setShowModal(true)}
                                 style={{
                                     fontSize: "clamp(13px, 1vw, 16px)"
                                 }}
@@ -88,6 +94,8 @@ const HeroSection = () => {
                 </div>
             </div>
         </section>
+         {showModal && <Popup onClose={() => setShowModal(false)} />}
+        </>
     );
 };
 

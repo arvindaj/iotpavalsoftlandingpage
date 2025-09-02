@@ -29,13 +29,16 @@ const ExploreCard = () => {
           Ready to Launch a Lightning-Fast WordPress Site That Performs Everywhere and Build speed-driven WordPress solutions
 
         </h5>
-        <button
-          className="btn px-4 py-2 explore-btn"
+        <a
+
+          target="/blank"
+          href="https://www.pavalsoftware.com/"
+          className="btn px-4 py-2 explore-btn text-decoration-none"
           data-aos="zoom-in"
           data-aos-delay="400"
         >
           Explore Now
-        </button>
+        </a>
       </div>
     </div>
   );
