@@ -24,57 +24,57 @@ const IotSoftwareServices = () => {
   const services = [
     {
       icon: IconConsulting,
-      title: "IoT consulting and architecture assessment",
-      desc: "Our experienced consultants and architects conduct in-depth evaluations of IoT architectures and deliver actionable recommendations for improvements."
+      title: "IoT Proof of Concept (PoC) Development:",
+      desc: "IoT Proof of Concept (PoC) Development: We develop IoT prototypes to get your IoT ideas working to confirm that their development is technically and economically viable before committing to a large-scale investment."
     },
     {
       icon: IconResearch,
-      title: "Research and prototyping (PoC, MVP)",
-      desc: "SaM Solutions’ specialists enable safe and rapid launch of Internet of Things projects by developing proof of concepts or minimum viable products."
+      title: "Industrial IoT (IIoT) Solutions",
+      desc: "We develop and deploy industrial and manufacturing connected solutions to provide predictive maintenance and increase operational efficiency."
     },
     {
       icon: IconCustomDev,
-      title: "Custom IoT development",
-      desc: "We create unique Internet of Things solutions to meet specific business and industrial demands."
+      title: "Smart City and Smart Home Services",
+      desc: "Our tech team develops solutions that integrate smart city and smart home infrastructure, such as smart lighting and smart energy management, to build smarter and more comfortable environments."
     },
     {
       icon: IconImplementation,
-      title: "End-to-end IoT implementation",
-      desc: "SaM Solutions’ team offers full-cycle IoT development, from concept creation to final product launch."
+      title: "IoT Hardware & Firmware Development",
+      desc: "We deliver experience in creating and coding the low-level hardware and software that drives custom-built IoT devices and embedded systems."
     },
     {
       icon: IconCloud,
-      title: "IoT cloud development",
-      desc: "Our experts build reliable cloud-based networks to ensure seamless performance and connectivity for IoT applications and devices."
+      title: "IoT Asset Tracking Solutions",
+      desc: "We implement real-time asset monitoring systems to give you complete visibility over your inventory and logistics, improving supply chain management."
     },
     {
       icon: IconIntegration,
-      title: "Integration services",
-      desc: "SaM Solutions’ team offers full-cycle IoT development, from concept creation to final product launch."
+      title: "IoT Network Management",
+      desc: "We operate and control the network layer of your IoT ecosystem to make sure your network is always reliable and transmits data safely to all your devices."
     },
     {
       icon: IconReplatform,
-      title: "Replatforming and optimization",
-      desc: "Our experts build reliable cloud-based networks to ensure seamless performance and connectivity for IoT applications and devices."
+      title: "Digital Twin Implementation",
+      desc: "We develop virtual, dynamic representations of your physical assets and processes so that you can simulate in real-time and perform advanced performance analyses."
     },
     {
       icon: IconTroubleshoot,
-      title: "IoT device troubleshooting",
-      desc: "SaM Solutions’ team offers full-cycle IoT development, from concept creation to final product launch."
+      title: "Voice-Enabled IoT Solutions",
+      desc: "This option will combine all your IoT devices with voice assistants and natural language processing to provide an easy, hands-free way to control your devices with voice-activated devices."
     },
     {
       icon: IconSupport,
-      title: "Maintenance and support",
-      desc: "Our experts build reliable cloud-based networks to ensure seamless performance and connectivity for IoT applications and devices."
+      title: "IoT Interconnection with Existing Systems",
+      desc: "We are experts in integrating new IoT systems into your current IT systems to develop a new and future-proof operational system."
     }
   ];
 
   return (
     <section className="py-5">
-      <div className="container text-center">
+      <div className="container text-start">
         {/* Section Heading */}
         <h2 className="section-heading mb-3" data-aos="fade-up">
-          Our IoT software development services
+          Our Specialized IoT Services
         </h2>
         <p className="section-subtext mb-5" data-aos="fade-up" data-aos-delay="200">
           We comprehend your business needs with our ERP solutions team to help you tap in available
@@ -82,7 +82,7 @@ const IotSoftwareServices = () => {
         </p>
 
         {/* Grid Layout */}
-        <div className="row g-4">
+        <div className="row g-4 p-3">
           {services.map((service, index) => (
             <div className="col-lg-4 col-md-6" key={index} data-aos="zoom-in" data-aos-delay={index * 100}>
               <div className="card h-100 border-0 p-lg-4 service-card">

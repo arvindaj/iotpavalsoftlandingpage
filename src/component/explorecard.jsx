@@ -26,7 +26,7 @@ const ExploreCard = () => {
         data-aos="fade-up" // Animation here
       >
         <h5 className="fw-bold mb-4" data-aos="fade-down" data-aos-delay="200">
-          Ready to Launch a Lightning-Fast WordPress Site That Performs Everywhere and Build speed-driven WordPress solutions
+          Ready to innovate? We specialize in delivering advanced IoT solutions that drive efficiency and growth.
 
         </h5>
         <a

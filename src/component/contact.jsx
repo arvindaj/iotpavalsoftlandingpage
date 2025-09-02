@@ -167,7 +167,7 @@ const ContactCard = () => {
             <span className="fw-bold text-dark">Call to Action</span>
           </button>
           <h1 className="fw-bold display-5 display-md-4 display-lg-3">
-            listen to what they say.
+            Let's Build a Smarter Future.
           </h1>
           <p
             className="text-white-50 mt-3"
@@ -178,8 +178,7 @@ const ContactCard = () => {
               width: "90%",
             }}
           >
-            We can upgrade your business to transparent, secure, and efficient
-            solutions using a blockchain.
+           We are here to provide you with customized IoT solutions that will revolutionize your company. Our professionals are available to help, whether you have a project in mind or would like to understand how linked technology may increase productivity
           </p>
         </div>
 

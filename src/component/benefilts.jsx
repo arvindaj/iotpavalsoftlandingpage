@@ -24,7 +24,7 @@ const BenefiltsSection = () => {
 
           {/* ✅ Left Content */}
           <div
-            className="col-lg-6 col-md-12 mb-0 p-5 py-0 pb-0 p-lg-0 p-md-0"
+            className="col-lg-6 col-md-12 mb-0 p-3 py-0 pb-0 p-lg-0 p-md-0"
             data-aos="fade-right"
           >
             <h2
@@ -35,11 +35,11 @@ const BenefiltsSection = () => {
                 lineHeight: "120%",
               }}
             >
-              The benefits of the Internet of Things
+              The Power of Connected Systems
             </h2>
 
             <div className="mb-4" data-aos="fade-up" data-aos-delay="200">
-              <h5 className="fw-semibold">Operational efficiency</h5>
+              <h5 className="fw-semibold">Improve Operations through IoT Integration.</h5>
               <p
                 className="text-muted text-start"
                 style={{
@@ -49,9 +49,7 @@ const BenefiltsSection = () => {
                   lineHeight: "150%",
                 }}
               >
-                IoT solutions enable real-time monitoring and automation of
-                business and production processes, leading to increased productivity
-                and optimized resource consumption.
+               Boost productivity with the help of IoT. Our solutions integrate your devices into one continuous workflow, providing you with real-time information and smarter work.
               </p>
             </div>
 
@@ -66,14 +64,13 @@ const BenefiltsSection = () => {
                   lineHeight: "150%",
                 }}
               >
-                With IoT devices, businesses gather valuable insights into
-                customer behavior and preferences, leveraging them for proactive
-                problem-solving, personalized services, and improved engagement.
+                Protect your organization with our advanced IoT security. We use powerful encryption and regular monitoring to ensure that your data is fully secure.
+
               </p>
             </div>
 
             <div className="mb-0" data-aos="fade-up" data-aos-delay="600">
-              <h5 className="fw-semibold">Cost savings</h5>
+              <h5 className="fw-semibold">Maximize Value with IoT Analytics.</h5>
               <p
                 className="text-muted text-start"
                 style={{
@@ -83,10 +80,7 @@ const BenefiltsSection = () => {
                   lineHeight: "150%",
                 }}
               >
-                IoT-powered predictive analytics help identify potential issues
-                before they escalate into costly problems. By monitoring equipment
-                and systems in real-time, organizations minimize downtime, extend
-                asset lifespans, and reduce repair costs.
+               We convert raw data into useful insights. Analyzing data from connected devices helps you make smarter decisions, improve performance, and find new ways to grow your business.
               </p>
             </div>
 

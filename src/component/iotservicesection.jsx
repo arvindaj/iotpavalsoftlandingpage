@@ -46,7 +46,7 @@ const IotServicesSection = () => {
                                 lineHeight: "120%",
                             }}
                         >
-                            Internet of Things (IoT) development services
+                           Transforming Business with Paval Soft's IoT Solutions
                         </h1>
 
                         <p
@@ -60,10 +60,7 @@ const IotServicesSection = () => {
                                 lineHeight: "150%",
                             }}
                         >
-                            Blockchain alters the way organizations perform operations – it cuts
-                            down the levels of intermediation, automates the work process and
-                            records that are tamper-resistant. Decentralized Ledger makes every node
-                            a copy of a verified record – which means single points of failure.
+                            Paval Soft builds new IoT products to bring your devices and systems together. We help your business become smarter by optimizing performance and efficiency. We are experts in custom IoT platform development and Industrial IoT (IIoT) solutions.
                         </p>
 
                         <p
@@ -77,10 +74,7 @@ const IotServicesSection = () => {
                                 lineHeight: "150%",
                             }}
                         >
-                            Blockchain alters the way organizations perform operations – it cuts
-                            down the levels of intermediation, automates the work process and
-                            records that are tamper-resistant. Decentralized Ledger makes every node
-                            a copy of a verified record – which means single points of failure.
+                           We handle everything, from setting up your devices to making sure your data is secure. We turn raw information into simple, useful insights that help you make better decisions. Let's work together to create an IoT solution that's a perfect fit for you.
                         </p>
                         <a
                             href="https://www.pavalsoftware.com/"

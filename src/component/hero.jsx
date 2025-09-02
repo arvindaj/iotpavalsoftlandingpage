@@ -57,7 +57,7 @@ const [showModal, setShowModal] = useState(false);
                                     lineHeight: "120%",
                                 }}
                             >
-                                INTERNET OF THINGS
+                                Connecting Your World
                             </h1>
 
                             <p
@@ -69,9 +69,7 @@ const [showModal, setShowModal] = useState(false);
                                     maxWidth: "420px",
                                 }}
                             >
-                                Discover our growing range of WordPress web development services
-                                that aim to empower businesses with a custom-built and unique
-                                website.
+                               Paval Soft delivers the best IoT services to transform your business through intelligent, connected solutions. As a top IoT development company in India, we help you harness the full potential of this technology
                             </p>
 
                             <button

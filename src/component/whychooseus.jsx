@@ -17,18 +17,14 @@ export default function WhyChooseUs() {
           className="why-heading"
           data-aos="fade-up"
         >
-          Why Choose Us as Your IoT Service Provider
+        Why Paval Soft for Your IoT Services?
         </h2>
         <p 
           className="why-desc text-muted mx-auto mt-4"
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          Seamlessly integrate various ERP modules at the departmental level.
-          Opt custom ERP implementation that is intra-departmental and applied at
-          individual levels. Ensure improved forecasting and higher transparency
-          for taking beneficial business decisions achieving quality
-          organisational benchmarks.
+        We offer advanced IoT solutions with practical applications. Our experience ensures a seamless integration, strong security, and valuable insights to support your company's growth. Select us for a digital transformation that is future-proof and proven to be innovativ
         </p>
       </div>
     </section>

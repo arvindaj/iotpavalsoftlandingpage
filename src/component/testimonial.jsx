@@ -7,15 +7,15 @@ import '../assets/css/testimonial.css'; // for responsive tweaks
 
 const testimonials = [
   {
-    name: "James R",
-    role: "Owner, Bloom & Co.",
-    text: "The use of blockchain enhanced our speed of transaction and transparency- changed the level of trust in our customer experience-altogether.",
+    name: "Jaison D",
+    role: "Operations Manager",
+    text: "The IoT solution provided by Paval Soft has fully automated our operations. We are now aware of everything in real-time, which has significantly improved the productivity of our team, and saved us lots of money. An incredible partnership!",
     image: test1,
   },
   {
-    name: "Anna L",
-    role: "Marketing Lead, Nova",
-    text: "Smart contracts saved on our expenses and sidelined intermediaries and increased automation.",
+    name: "Sarah M",
+    role: "Business Strategist",
+    text: "The data analytics from their IoT system are a game-changer. Smart decisions can now be made based on actionable insights, not guesswork. The experience of the team members in transforming raw data into useful information is of high quality.",
     image: test2,
   },
   {
@@ -73,7 +73,7 @@ const Testimonial = () => {
                   <strong>Testimonials</strong>
                 </p>
                 <h2 className="fw-bold mb-4 mt-3 fs-3 fs-md-2">
-                  Listen To What They Say.
+                 Hear From Our Clients
                 </h2>
               </div>
 
