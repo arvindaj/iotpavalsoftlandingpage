@@ -19,9 +19,9 @@ const testimonials = [
     image: test2,
   },
   {
-    name: "John M",
-    role: "CEO, Startup Hub",
-    text: "Immutable ledger made us certain of the integrity of data- audits are now smooth and reliable.",
+    name: "Alex P",
+    role: "Director of Technology",
+    text: "Paval Soft service was excellent. There is no other team better acquainted with the development of the IoT, and their system is free from any security vulnerabilities and fits our requirements perfectly. Our digital transformation is something we are confident about",
     image: test3,
   },
 ];
